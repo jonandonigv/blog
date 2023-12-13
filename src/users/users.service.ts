@@ -11,7 +11,7 @@ export class UsersService {
     @InjectRepository(User)
     private userRepository: Repository<User>
   ) {}
-
+    // TODO: Test if without telling return type yells
   create(createUserDto: CreateUserDto) {
     // TODO: Test if this works against db
     return this.userRepository.create(createUserDto);
