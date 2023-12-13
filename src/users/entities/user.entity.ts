@@ -16,4 +16,8 @@ export class User {
 
   @Column({ default: false })
   isAdmin: boolean;
+
+  // TODO: Add user has many post relation
+
+  // TODO: Add user has many comments in post relation
 }
