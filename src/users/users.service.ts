@@ -29,6 +29,8 @@ export class UsersService {
     return this.userRepository.findOneBy({ id });
   }
 
+
+  // TODO: Add logic/fix mapping bug
   update(id: number, updateUserDto: UpdateUserDto) {
     return `This action updates a #${id} user`;
   }
