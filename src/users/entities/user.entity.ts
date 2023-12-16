@@ -17,4 +17,6 @@ export class User {
 
     @Column()
     isAdmin: boolean
+
+    // TODO: Add relation with post
 }

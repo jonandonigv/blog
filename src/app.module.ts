@@ -5,6 +5,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { UsersModule } from './users/users.module';
 import { User } from './users/entities/user.entity';
 
+// TODO: Change this to use a config file
 @Module({
   imports: [
     TypeOrmModule.forRoot({
